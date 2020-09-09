@@ -1,0 +1,52 @@
+
+from array import * 
+​
+array1 = array ('i' , [23,13,34,45,74,72,19,39,42,32])
+for x in array1 :
+    print(x)
+23
+13
+34
+45
+74
+72
+19
+39
+42
+32
+
+
+//the given below is to access array
+
+array1 = array ('i' , [23,13,34,45,74,72,19,39,42,32])
+from array import * 
+​
+array1 = array ('i' , [23,13,34,45,74,72,19,39,42,32])
+​
+print (array1[0])
+print (array1[5])
+23
+72
+   
+   
+   
+   
+from array import * 
+array1 = array ('i' , [23,13,34,45,74,72,19,39,42,32])
+​
+array1.insert(4,10)
+​
+for x in array1:
+    print(x)
+​
+23
+13
+34
+45
+10
+74
+72
+19
+39
+42
+32
